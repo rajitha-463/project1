@@ -1,0 +1,185 @@
+	.container {
+		display: flex;
+		justify-content: space-around;
+		border: 2px solid black;
+		margin: 5%;
+		padding: 5%;
+
+	}
+	.card{
+		border: 1px solid black;
+		padding:5%;
+		text-align: center;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+
+	}
+	.info{
+		border: 1px solid black;
+		padding:3%;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+		
+	}
+	.img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	table{
+		border-collapse: collapse;
+	}
+	table,th,td
+	{
+		border: 1px solid blue;
+	}
+	#head,#add{
+		text-align: left;
+	}
+	.header{
+		text-align:center;
+	}
+@media only screen and (min-width: 320px) and (max-width:480px){
+	.container{
+		display: flex;
+		flex-direction: column;
+		margin: 5%;
+		padding: 5%;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+	}
+	.card{
+		padding:5%;
+		text-align: center;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+
+	}
+	.info{
+		padding:3%;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+		
+	}
+	.img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	table{
+		border-collapse: collapse;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+
+	}
+	table,th,td
+	{
+		border: 1px solid blue;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+	}
+	#head,#add{
+		text-align: left;
+	}
+	.header{
+		text-align:center;
+	}
+	
+}
+
+@media only screen and (min-width:481px ) and (max-width:767px){
+	.container{
+		display: flex;
+		justify-content: space-around;
+		border: 2px solid black;
+		margin: 5%;
+		padding: 5%;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+	}
+	.card{
+		border: 1px solid black;
+		padding:5%;
+		text-align: center;
+		
+	}
+	.info{
+		border: 1px solid black;
+		padding:3%;
+		
+	}
+	.img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	table{
+		border-collapse: collapse;
+	}
+	table,th,td
+	{
+		border: 1px solid blue;
+	}
+	#head,#add{
+		text-align: left;
+	}
+	.header{
+		text-align:center;
+	}
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+	.container{
+		display: flex;
+		justify-content: space-around;
+		border: 2px solid black;
+		margin: 5%;
+		padding: 5%;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+	}
+	.card{
+		border: 1px solid black;
+		padding:5%;
+		text-align: center;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+
+	}
+	.info{
+		border: 1px solid black;
+		padding:3%;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+		
+	}
+	.img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	table{
+		border-collapse: collapse;
+		overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
+	}
+	table,th,td
+	{
+		border: 1px solid blue;
+	}
+	#head,#add{
+		text-align: left;
+	}
+	.header{
+		text-align:center;
+	}
+	
+}
